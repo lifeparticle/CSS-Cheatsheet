@@ -1,5 +1,5 @@
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/clamp
+
 
 
 
@@ -10,3 +10,4 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/clamp
 # Resources
 1. https://css-tricks.com/building-a-scalable-css-architecture-with-bem-and-utility-classes/
 2. https://github.com/jareware/css-architecture
+3. https://developer.mozilla.org/en-US/docs/Web/CSS/clamp
