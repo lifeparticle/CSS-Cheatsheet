@@ -12,3 +12,4 @@
 2. https://github.com/jareware/css-architecture
 3. https://developer.mozilla.org/en-US/docs/Web/CSS/clamp
 4. https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+5. http://smacss.com/
