@@ -13,3 +13,4 @@
 3. https://developer.mozilla.org/en-US/docs/Web/CSS/clamp
 4. https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 5. http://smacss.com/
+6. https://frontendmasters.com/courses/css-variables/dry-fallback-strategies/
