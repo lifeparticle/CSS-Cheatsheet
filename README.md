@@ -15,3 +15,4 @@
 5. http://smacss.com/
 6. https://frontendmasters.com/courses/css-variables/dry-fallback-strategies/
 7. https://open-props.style/
+8. https://nerdy.dev/
