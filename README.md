@@ -1,7 +1,11 @@
+# Introduction
 
-
-
-
+```css
+.container {
+	width: min(100% -2rem, 50rem);
+	margin-inline: auto
+}
+```
 
 # My CSS Articles
 
