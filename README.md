@@ -21,3 +21,4 @@
 7. https://open-props.style/
 8. https://nerdy.dev/
 9. https://styleguide.github.com/
+10. https://bradfrost.com/blog/post/atomic-web-design/
