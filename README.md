@@ -22,3 +22,5 @@
 8. https://nerdy.dev/
 9. https://styleguide.github.com/
 10. https://bradfrost.com/blog/post/atomic-web-design/
+11. https://css-weekly.com/
+12. https://frontendfoc.us/
