@@ -25,3 +25,4 @@
 11. https://css-weekly.com/
 12. https://frontendfoc.us/
 13. https://www.lightningdesignsystem.com/components/overview/
+14. https://www.youtube.com/watch?v=7hYOLLO2gc4&t=1357s&ab_channel=YouGottaLoveFrontend
