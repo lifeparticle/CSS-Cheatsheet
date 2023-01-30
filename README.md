@@ -24,3 +24,4 @@
 10. https://bradfrost.com/blog/post/atomic-web-design/
 11. https://css-weekly.com/
 12. https://frontendfoc.us/
+13. https://www.lightningdesignsystem.com/components/overview/
