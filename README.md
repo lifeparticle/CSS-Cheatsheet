@@ -7,6 +7,19 @@
 }
 ```
 
+
+# Pseudo-classes
+
+`:hover`,`:active`,`:focus`,`:visited`,`:link`,`:first-child`,`:last-child`,`:nth-child()`,`:nth-of-type()`,`:first-of-type`,`:last-of-type`,`:only-child`,`:only-of-type`,`:not()`,`:empty`,`:checked`,`:disabled`,`:enabled`,`:target`,`:root`
+
+
+
+# Pseudo-elements
+
+`::before`, `::after`, `::first-letter`, `::first-line`, `::selection`, `::placeholder`, `::marker`, `::backdrop`, `::cue`, `::spelling-error`, `::grammar-error`
+
+
+
 # My CSS Articles
 
 1. [How To Create a User Interface Using CSS Grid](https://medium.com/geekculture/how-to-create-a-user-interface-using-css-grid-738d0b51282)
