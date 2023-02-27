@@ -24,6 +24,9 @@
 
 1. [How To Create a User Interface Using CSS Grid](https://medium.com/geekculture/how-to-create-a-user-interface-using-css-grid-738d0b51282)
 
+# Books
+1. https://www.refactoringui.com/
+
 # Resources
 1. https://css-tricks.com/building-a-scalable-css-architecture-with-bem-and-utility-classes/
 2. https://github.com/jareware/css-architecture
