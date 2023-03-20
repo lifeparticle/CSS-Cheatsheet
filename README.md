@@ -18,7 +18,33 @@
 
 `::before`, `::after`, `::first-letter`, `::first-line`, `::selection`, `::placeholder`, `::marker`, `::backdrop`, `::cue`, `::spelling-error`, `::grammar-error`
 
+# Transition
 
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
+
+```css
+div {
+  transition-property: margin-right;
+  transition-duration: 3s;
+  transition-delay: 5s;
+}
+```
+
+```css
+div {
+  transition: <property> <duration> <timing-function> <delay>;
+}
+```
+
+```css
+transition-timing-function: ease;
+transition-timing-function: ease-in;
+transition-timing-function: ease-out;
+transition-timing-function: ease-in-out;
+transition-timing-function: linear;
+transition-timing-function: step-start;
+transition-timing-function: step-end;
+```
 
 # My CSS Articles
 
