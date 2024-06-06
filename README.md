@@ -5,8 +5,63 @@ TODO
 
 # CSS basics
 
-TODO
+```css
 
+h1 {
+  color: blue;
+}
+```
+
+```
+h1: Selector           | Rule/Ruleset
+color: Property        |     | Declaration 
+red: Property value    |     |
+```
+
+## Selectors
+
+| Name                     | Example                      | Code Example                    |
+|--------------------------|------------------------------|---------------------------------|
+| Universal Selector       | `*`                          | `* { margin: 0; }`                    |
+| Type Selector            | `div`                        | `div { color: blue; }`                |
+| Class Selector           | `.class-name`                | `.class-name { font-size: 14px; }`    |
+| ID Selector              | `#id-name`                   | `#id-name { background: yellow; }`    |
+| Attribute Selector       | `[type="text"]`              | `[type="text"] { border: 1px solid; }`|
+| Descendant Selector      | `div p`                      | `div p { margin: 10px; }`             |
+| Child Selector           | `div > p`                    | `div > p { padding: 5px; }`           |
+| Adjacent Sibling Selector| `h1 + p`                     | `h1 + p { color: green; }`            |
+| General Sibling Selector | `h1 ~ p`                     | `h1 ~ p { font-style: italic; }`      |
+| Grouping Selector        | `h1, h2, h3`                 | `h1, h2, h3 { margin-bottom: 10px; }`|
+| Pseudo-class Selector    | `a:hover`                    | `a:hover { text-decoration: underline; }`|
+| Pseudo-element Selector  | `p::before`                  | `p::before { content: "Note: "; }`|
+| Attribute Presence       | `[title]`                    | `[title] { color: red; }`       |
+| Attribute Value          | `[title="value"]`            | `[title="value"] { font-weight: bold; }`|
+| Attribute Starts With    | `[title^="value"]`           | `[title^="value"] { color: blue; }`|
+| Attribute Ends With      | `[title$="value"]`           | `[title$="value"] { color: green; }`|
+| Attribute Contains       | `[title*="value"]`           | `[title*="value"] { color: orange; }`|
+| Negation Selector        | `:not(selector)`             | `:not(p) { color: gray; }`      |
+| First Child              | `:first-child`               | `div:first-child { font-size: 18px; }`|
+| Last Child               | `:last-child`                | `div:last-child { font-size: 12px; }`|
+| nth Child                | `:nth-child(2)`              | `div:nth-child(2) { color: purple; }`|
+| nth Last Child           | `:nth-last-child(2)`         | `div:nth-last-child(2) { color: pink; }`|
+| Only Child               | `:only-child`                | `div:only-child { color: brown; }`|
+| First of Type            | `:first-of-type`             | `p:first-of-type { margin-top: 20px; }`|
+| Last of Type             | `:last-of-type`              | `p:last-of-type { margin-bottom: 20px; }`|
+| nth of Type              | `:nth-of-type(2)`            | `p:nth-of-type(2) { color: teal; }`|
+| nth Last of Type         | `:nth-last-of-type(2)`       | `p:nth-last-of-type(2) { color: navy; }`|
+| Only of Type             | `:only-of-type`              | `p:only-of-type { color: maroon; }`|
+| Empty                    | `:empty`                     | `div:empty { display: none; }`  |
+| Enabled                  | `:enabled`                   | `input:enabled { background: white; }`|
+| Disabled                 | `:disabled`                  | `input:disabled { background: gray; }`|
+| Checked                  | `:checked`                   | `input:checked { border: 2px solid blue; }`|
+| Before                   | `::before`                   | `p::before { content: "Start: "; }`|
+| After                    | `::after`                    | `p::after { content: " End."; }` |
+| Placeholder              | `::placeholder`              | `input::placeholder { color: gray; }`|
+
+
+## Box model
+
+<img width="295" alt="Screen Shot 2024-06-06 at 10 03 31 pm" src="https://github.com/lifeparticle/CSS-Cheatsheet/assets/1612112/0dcb25bd-8c05-4e4a-9f47-e43d864436f3">
 
 # Pseudo-classes
 
