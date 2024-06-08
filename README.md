@@ -63,17 +63,49 @@ red: Property value    |     |
 
 <img width="295" alt="Screen Shot 2024-06-06 at 10 03 31 pm" src="https://github.com/lifeparticle/CSS-Cheatsheet/assets/1612112/0dcb25bd-8c05-4e4a-9f47-e43d864436f3">
 
-# Pseudo-classes
+## Pseudo-classes
 
-`:hover`,`:active`,`:focus`,`:visited`,`:link`,`:first-child`,`:last-child`,`:nth-child()`,`:nth-of-type()`,`:first-of-type`,`:last-of-type`,`:only-child`,`:only-of-type`,`:not()`,`:empty`,`:checked`,`:disabled`,`:enabled`,`:target`,`:root`
+| Pseudo-class       | Description                                                                   |
+|--------------------|-------------------------------------------------------------------------------|
+| `:hover`           | Applies styles when the user hovers over an element.                          |
+| `:active`          | Applies styles when an element is activated (e.g., when a user clicks on it). |
+| `:focus`           | Applies styles when an element has focus.                                     |
+| `:visited`         | Applies styles to visited links.                                              |
+| `:link`            | Applies styles to unvisited links.                                            |
+| `:first-child`     | Applies styles to the first child of an element.                              |
+| `:last-child`      | Applies styles to the last child of an element.                               |
+| `:nth-child(n)`    | Applies styles to the nth child of an element.                                |
+| `:nth-of-type(n)`  | Applies styles to the nth child of a specified type of its parent.            |
+| `:first-of-type`   | Applies styles to the first child of a specified type of its parent.          |
+| `:last-of-type`    | Applies styles to the last child of a specified type of its parent.           |
+| `:only-child`      | Applies styles to an element that is the only child of its parent.            |
+| `:only-of-type`    | Applies styles to an element that is the only child of its type of its parent.|
+| `:not(selector)`   | Applies styles to elements that do not match the selector.                    |
+| `:empty`           | Applies styles to elements that have no children.                             |
+| `:checked`         | Applies styles to checked form elements (e.g., radio buttons, checkboxes).    |
+| `:disabled`        | Applies styles to disabled form elements.                                     |
+| `:enabled`         | Applies styles to enabled form elements.                                      |
+| `:target`          | Applies styles to an element that is the target of the current URL fragment.  |
+| `:root`            | Applies styles to the document's root element.                                |
+
+## Pseudo-elements
+
+| Pseudo-element     | Description                                                        |
+|--------------------|--------------------------------------------------------------------|
+| `::before`         | Inserts content before an element's content.                       |
+| `::after`          | Inserts content after an element's content.                        |
+| `::first-letter`   | Applies styles to the first letter of an element.                  |
+| `::first-line`     | Applies styles to the first line of an element.                    |
+| `::selection`      | Applies styles to the portion of an element that is selected.      |
+| `::placeholder`    | Applies styles to the placeholder text of an input element.        |
+| `::marker`         | Applies styles to the marker of a list item.                       |
+| `::backdrop`       | Applies styles to the backdrop of an element.                      |
+| `::cue`            | Applies styles to WebVTT cues.                                     |
+| `::spelling-error` | Applies styles to text identified as a spelling error.             |
+| `::grammar-error`  | Applies styles to text identified as a grammatical error.          |
 
 
-
-# Pseudo-elements
-
-`::before`, `::after`, `::first-letter`, `::first-line`, `::selection`, `::placeholder`, `::marker`, `::backdrop`, `::cue`, `::spelling-error`, `::grammar-error`
-
-# Transition
+## Transition
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
 
