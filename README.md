@@ -59,6 +59,26 @@ red: Property value    |     |
 | Placeholder              | `::placeholder`              | `input::placeholder { color: gray; }`|
 
 
+
+```html
+<div>
+    <p>1. This paragraph will be selected.</p>
+</div>
+<div>
+    <p>2. This paragraph will not be selected</p>
+    <p>3. This paragraph will not be selected</p>
+</div>
+```
+
+```css
+p:only-of-type {
+  color: red;
+}
+```
+
+<img width="298" alt="Screen Shot 2024-06-08 at 3 05 51 pm" src="https://github.com/lifeparticle/CSS-Cheatsheet/assets/1612112/94715b23-cced-410b-bf2a-e2839cbd2b3c">
+
+
 ## Box model
 
 <img width="295" alt="Screen Shot 2024-06-06 at 10 03 31 pm" src="https://github.com/lifeparticle/CSS-Cheatsheet/assets/1612112/0dcb25bd-8c05-4e4a-9f47-e43d864436f3">
