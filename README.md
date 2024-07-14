@@ -5,8 +5,40 @@
 # Books
 1. https://www.refactoringui.com/
 
+# Code
+
+```html
+<div className="card-content">
+    <p className="card-date">{formattedDate}</p>
+    <h6 className="card-title" data-date={formattedDate}>
+      {post.title}
+    </h6>
+</div>
+```
+
+```css
+.card-content {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 5px;
+}
+
+.card-title::after {
+		content: " — " attr(data-date);
+		font-size: smaller;
+		color: gray;
+}
+
+.card-date {
+  display: none;
+} 
+```
+
 # Tools
 https://cssstats.com/
+
+
 
 # Resources
 1. https://css-tricks.com/building-a-scalable-css-architecture-with-bem-and-utility-classes/
